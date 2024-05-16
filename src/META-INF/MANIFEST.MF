@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.15
+Created-By: 1.7.0_80-b15 (Oracle Corporation)
+Main-Class: aggressor.Aggressor
+Add-Exports: java.desktop/sun.swing java.desktop/sun.swing.table java.
+ desktop/sun.swing.plaf.synth java.desktop/com.sun.java.swing.plaf.win
+ dows java.desktop/sun.awt.shell java.desktop/com.sun.awt java.base/su
+ n.security.action
+Add-Opens: java.desktop/javax.swing.plaf.synth java.desktop/javax.swin
+ g.plaf.basic java.desktop/javax.swing java.desktop/javax.swing.tree j
+ ava.desktop/java.awt.event
+Synthetica-Version: 2.30.0 Build 16
+Multi-Release: true
+
