@@ -54,7 +54,7 @@ public class ConnectDialog extends Starter2 {
          String var10 = Prefs.getPreferences().getString("connection.profiles." + var6 + ".alias", var7 + "@" + var6);
          String var11 = this.window.isConnected(var6) ? "*" : "";
          String var12 = var11 + var6 + "!!" + var11 + var10;
-         this.options.addPage(var12, (Icon)null, "Cobalt Strike 4.5 By agony.welcome to use it.", (new Connect(this.window)).getContent(var3, var7, var8, var6, var9, var10));
+         this.options.addPage(var12, (Icon)null, "Cobalt Strike 4.5 By Agony.welcome to use it.", (new Connect(this.window)).getContent(var3, var7, var8, var6, var9, var10));
          if (var2.equals(var6)) {
             var1 = true;
             var2 = var12;
