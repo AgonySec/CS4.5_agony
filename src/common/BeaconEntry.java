@@ -48,7 +48,7 @@ public class BeaconEntry implements Serializable, Loggable {
    public static final int METADATA_FLAG_X64_AGENT = 2;
    public static final int METADATA_FLAG_X64_SYSTEM = 4;
    public static final int METADATA_FLAG_ADMIN = 8;
-
+   private static QQWry qqwry;
    public int getBuild() {
       return this.build;
    }
@@ -433,15 +433,15 @@ public class BeaconEntry implements Serializable, Loggable {
    }
 
    /* add address */
-   private static QQWry qqwry;
-   static {
-      try {
-         byte[] data = CommonUtils.readResource("resources/qqwry.dat");
-         qqwry = new QQWry(data);
-      } catch (Exception e) {
-
-      }
-   }
+//   private static QQWry qqwry;
+//   static {
+//      try {
+//         byte[] data = CommonUtils.readResource("resources/qqwry.dat");
+//         qqwry = new QQWry(data);
+//      } catch (Exception e) {
+//
+//      }
+//   }
    public static String getIpAddress(String ipaddress) {
       if (ipaddress.length() > 15 || ipaddress.equals("unknown") || ipaddress.equals("")) {
          return "未知";
@@ -613,5 +613,13 @@ public class BeaconEntry implements Serializable, Loggable {
       }
 
       var1.writeBytes("\n");
+   }
+   static {
+      try {
+         byte[] data = CommonUtils.readResource("resources/qqwry.dat");
+         qqwry = new QQWry(data);
+      } catch (Exception var1) {
+      }
+
    }
 }

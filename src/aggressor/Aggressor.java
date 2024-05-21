@@ -47,7 +47,7 @@ public class Aggressor extends Starter {
          }
       }
 
-      JOptionPane.showMessageDialog(null, "欢迎使用agony版本CS!");
+//      JOptionPane.showMessageDialog(null, "欢迎使用agony版本CS!");
       ParserConfig.installEscapeConstant('c', "\u0003");
       ParserConfig.installEscapeConstant('U', "\u001f");
       ParserConfig.installEscapeConstant('o', "\u000f");
