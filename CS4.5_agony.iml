@@ -7,9 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="cobaltstrike" level="application" />
-    <orderEntry type="library" exported="" name="commons-lang3-3.13.0" level="application" />
-    <orderEntry type="library" exported="" name="commons-text-1.10.0" level="application" />
-    <orderEntry type="library" exported="" name="flatlaf-3.2" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
