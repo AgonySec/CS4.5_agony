@@ -1,12 +1,18 @@
-# 介绍
+
+
+# CobaltStrike4.5 - 魔改版 - Agony
+
+​																											![](https://badgen.net/github/stars/AgonySec/CS4.5_agony)![GitHub download counter](https://img.shields.io/github/downloads/AgonySec/CS4.5_agony/total)
+
+## 介绍
 
 Agony自用CS，根据CobaltStrike4.5二次开发，修复若干个bug
 
 
 
-# 更新日志
+## 更新日志
 
-## v1.0版本
+### v1.0版本
 
 - 修改默认端口
 - 修改默认ssl证书
@@ -31,7 +37,7 @@ Agony自用CS，根据CobaltStrike4.5二次开发，修复若干个bug
 - Event Log 显示连接的 teamserver 的 IP
 - 修改默认登录int长度48879
 
-## v1.5版本
+### v1.5版本
 
 - 修复了上线慢的bug！
 - 修改了图标和logo
@@ -43,7 +49,7 @@ Agony自用CS，根据CobaltStrike4.5二次开发，修复若干个bug
 
 
 
-# 使用
+## 使用
 
 **环境**
 
